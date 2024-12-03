@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 100vh;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1493514789931-586cb221d7a7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2l0eSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0003;
+}
